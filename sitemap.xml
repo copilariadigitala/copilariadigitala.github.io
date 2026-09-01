@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://copilariadigitala.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://copilariadigitala.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copilariadigitala.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copilariadigitala.github.io/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://copilariadigitala.github.io/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://copilariadigitala.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copilariadigitala.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copilariadigitala.github.io/"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://copilariadigitala.github.io/angajament/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://copilariadigitala.github.io/angajament/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copilariadigitala.github.io/en/pledge/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copilariadigitala.github.io/angajament/"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://copilariadigitala.github.io/en/pledge/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://copilariadigitala.github.io/angajament/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copilariadigitala.github.io/en/pledge/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copilariadigitala.github.io/angajament/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copilariadigitala.github.io/impactul-ecranelor/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://copilariadigitala.github.io/impactul-ecranelor/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copilariadigitala.github.io/en/screen-impact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copilariadigitala.github.io/impactul-ecranelor/"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://copilariadigitala.github.io/en/screen-impact/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://copilariadigitala.github.io/impactul-ecranelor/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copilariadigitala.github.io/en/screen-impact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copilariadigitala.github.io/impactul-ecranelor/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copilariadigitala.github.io/conferinta/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://copilariadigitala.github.io/conferinta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copilariadigitala.github.io/en/conference/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copilariadigitala.github.io/conferinta/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://copilariadigitala.github.io/en/conference/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://copilariadigitala.github.io/conferinta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copilariadigitala.github.io/en/conference/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copilariadigitala.github.io/conferinta/"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://copilariadigitala.github.io/resurse/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://copilariadigitala.github.io/resurse/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copilariadigitala.github.io/en/resources/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copilariadigitala.github.io/resurse/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://copilariadigitala.github.io/en/resources/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://copilariadigitala.github.io/resurse/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copilariadigitala.github.io/en/resources/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copilariadigitala.github.io/resurse/"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://copilariadigitala.github.io/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://copilariadigitala.github.io/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copilariadigitala.github.io/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copilariadigitala.github.io/contact/"/>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://copilariadigitala.github.io/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://copilariadigitala.github.io/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copilariadigitala.github.io/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copilariadigitala.github.io/contact/"/>
+    <priority>0.4</priority>
+  </url>
+</urlset>
