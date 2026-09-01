@@ -1,0 +1,57 @@
+/* Self-hosted webfonts. Nothing here is fetched from a third party at runtime.
+ *
+ * Literata      - headings and pull-quotes  - SIL OFL 1.1, TypeTogether for Google
+ * Source Sans 3 - body text and UI          - SIL OFL 1.1, Adobe
+ * Licence: see OFL.txt in this directory.
+ *
+ * Subset to basic latin + the Romanian/Western-European part of latin-ext +
+ * General Punctuation. Carries the comma-below diacritics the site requires:
+ * Ă ă Â â Î î Ș ș Ț ț (U+0218/U+0219, U+021A/U+021B - never the cedilla forms
+ * U+015F/U+0163), plus „ ” « » - -- ... and NBSP. Currency, maths, arrows,
+ * phonetic extensions and Latin Extended Additional/C/D are deliberately out.
+ *
+ * urls are root-absolute, so these rules behave identically whether this file
+ * is @import-ed or its rules are pasted into assets/site.css. The site is
+ * served from the domain root, and `python3 -m http.server` at the repo root
+ * resolves them the same way.
+ *
+ * Each unicode-range below is generated from the cmap of the file it points at,
+ * so it is never wider (a wasted download) nor narrower (silently dropped
+ * characters) than the font. Regenerate it if the fonts are ever re-subset.
+ */
+
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/literata-400.woff2') format('woff2');
+  unicode-range: U+0020-007E, U+00A0-017E, U+018F, U+0192, U+01A0-01A1, U+01AF-01B0, U+01C4-01DC, U+01E6-01E7, U+01EA-01EB, U+01FA-021B, U+022A-022D, U+0230-0233, U+0237, U+0259, U+02BB-02BC, U+02BE-02BF, U+02C6-02CC, U+02DA, U+02DC-02DD, U+0304, U+0308, U+2007-200B, U+2010, U+2012-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2032-2033, U+2039-203A, U+2042, U+2044;
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/literata-600.woff2') format('woff2');
+  unicode-range: U+0020-007E, U+00A0-017E, U+018F, U+0192, U+01A0-01A1, U+01AF-01B0, U+01C4-01DC, U+01E6-01E7, U+01EA-01EB, U+01FA-021B, U+022A-022D, U+0230-0233, U+0237, U+0259, U+02BB-02BC, U+02BE-02BF, U+02C6-02CC, U+02DA, U+02DC-02DD, U+0304, U+0308, U+2007-200B, U+2010, U+2012-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2032-2033, U+2039-203A, U+2042, U+2044;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/source-sans-3-400.woff2') format('woff2');
+  unicode-range: U+0020-007E, U+00A0-0181, U+0186, U+018A, U+018D-0190, U+0192-0194, U+0196-0197, U+019A-019B, U+019E, U+01A0-01A1, U+01AF-01B1, U+01B7, U+01BF-01C3, U+01CD-01DD, U+01E2-01E7, U+01EA-01EB, U+01EE-01F0, U+01F4-01F5, U+01F7-0201, U+0204-0205, U+0208-0209, U+020C-020D, U+0218-0220, U+0222-0223, U+0226-0227, U+0237, U+023A-023E, U+0241-0245, U+0248-0249, U+0259, U+02BB-02C1, U+02C6-02CC, U+02D0-02D7, U+02DA, U+02DC-02DE, U+02E0-02E4, U+02ED, U+0304, U+0308, U+0329, U+2007, U+2009-200B, U+2010-201E, U+2020-2023, U+2026, U+202F-2033, U+2035, U+2039-203A, U+203C-203F, U+2044, U+2047-204A, U+FEFF;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/source-sans-3-600.woff2') format('woff2');
+  unicode-range: U+0020-007E, U+00A0-0181, U+0186, U+018A, U+018D-0190, U+0192-0194, U+0196-0197, U+019A-019B, U+019E, U+01A0-01A1, U+01AF-01B1, U+01B7, U+01BF-01C3, U+01CD-01DD, U+01E2-01E7, U+01EA-01EB, U+01EE-01F0, U+01F4-01F5, U+01F7-0201, U+0204-0205, U+0208-0209, U+020C-020D, U+0218-0220, U+0222-0223, U+0226-0227, U+0237, U+023A-023E, U+0241-0245, U+0248-0249, U+0259, U+02BB-02C1, U+02C6-02CC, U+02D0-02D7, U+02DA, U+02DC-02DE, U+02E0-02E4, U+02ED, U+0304, U+0308, U+0329, U+2007, U+2009-200B, U+2010-201E, U+2020-2023, U+2026, U+202F-2033, U+2035, U+2039-203A, U+203C-203F, U+2044, U+2047-204A, U+FEFF;
+}
