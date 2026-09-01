@@ -1,4 +1,4 @@
-# CLAUDE.md — copilariadigitala.github.io
+# CLAUDE.md, copilariadigitala.github.io
 
 The public site of Copilăria Digitală. Romanian at `/`, English at `/en/`.
 
@@ -36,7 +36,7 @@ for the WHO ranking or the INSP number, and must never be positioned as if it we
 Two further standing corrections:
 
 - Haidt's percentages are always introduced as **"din 2010 până în 2024, potrivit lui
-  Haidt"** — never "până în prezent", which silently stretches his window every year.
+  Haidt"**, never "până în prezent", which silently stretches his window every year.
 - Cite **only** the Romanian editions that appear in the bibliography. On `/en/`, keep the
   Romanian title and add a plain-language gloss. Never invent an English edition.
 
@@ -45,10 +45,14 @@ Two further standing corrections:
 - **No third-party requests.** Fonts are self-hosted `woff2`. The YouTube recording sits
   behind a click-to-load facade.
 - **Works without JavaScript.** Nav, pledge form and print layout must all still work.
-- **Comma-below diacritics only** — `ș` U+0219, `ț` U+021B. Never `ş` U+015F, `ţ` U+0163.
-  Check with `rg -c 'ş|ţ' *.html **/*.html` — it must return nothing.
+- **Comma-below diacritics only**: `ș` U+0219, `ț` U+021B. Never `ş` U+015F, `ţ` U+0163.
+  Check with `rg -c 'ş|ţ' *.html **/*.html`, which must return nothing.
 - **No identifiable children in photographs.** Event photos `-62` and `-73` are excluded for
   this reason and must not be added.
+- **No em dashes in prose.** The source documents use none, so neither does the site. A full
+  stop, a colon or a pair of commas does the job. Inside a quotation the source's own
+  punctuation stands, including its en dashes, and book titles keep the bibliography's hyphen.
+  Check with `rg -c '—' *.html **/*.html`.
 - **The pledge is a personal commitment, not a research finding.** The commitment to withhold
   a smartphone until 16 has no study attached in the source material and must never be
   presented as if it did.
